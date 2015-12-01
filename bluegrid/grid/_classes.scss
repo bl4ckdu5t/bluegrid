@@ -39,7 +39,8 @@
 }
 
 @if _bluegrid('do-compile-classes') {
-  @debug: 'what';
+  @debug 'what';
+}
 
 .container-fluid, .fluid-container {
   margin-right: auto;
